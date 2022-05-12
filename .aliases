@@ -1,0 +1,27 @@
+# Change directory
+alias home='cd ~'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias .1='cd ..'
+alias .2='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+
+# List directory content
+alias l='ls'
+alias la='ls -a'
+alias ll='ls -l'
+alias lal='ls -la'
+alias lla='ls -la'
+
+# Clear the terminal screen
+alias c='clear'
+
+# List command history
+alias h='history'
+
+# Search files in the current folder
+alias f='find . | grep '
